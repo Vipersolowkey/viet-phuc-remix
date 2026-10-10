@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import ts from 'typescript';
+const temp=new URL('../.sites-runtime/test-modules/',import.meta.url);mkdirSync(temp,{recursive:true});
+writeFileSync(new URL('try-on.mjs',temp),ts.transpileModule(readFileSync(new URL('../lib/try-on.ts',import.meta.url),'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText);
+const {uploadError,imageSignature,boundedBody,tryonEndpoint}=await import(new URL('try-on.mjs',temp));
+test('Reject unsupported, empty and oversized uploads',()=>{assert(uploadError({type:'image/svg+xml',size:100}));assert(uploadError({type:'image/png',size:0}));assert(uploadError({type:'image/png',size:11*1024*1024}));assert.equal(uploadError({type:'image/jpeg',size:1234}),'');});
+test('Check image bytes, not only a client-supplied MIME type',()=>{assert(imageSignature(Uint8Array.from([137,80,78,71,13,10,26,10]),'image/png'));assert(!imageSignature(new TextEncoder().encode('<svg/>'),'image/png'));assert(imageSignature(Uint8Array.from([255,216,255]),'image/jpeg'));assert(imageSignature(new TextEncoder().encode('RIFF0000WEBP'),'image/webp'));assert(!imageSignature(new Uint8Array(4),'image/webp'));});
+test('GPU address is server-configured HTTPS, no credentials or redirect parameters',()=>{assert.equal(tryonEndpoint('https://gpu.example/'),'https://gpu.example');for(const url of ['file:///weights','http://gpu.example','https://key:secret@gpu.example','https://gpu.example?key=secret','https://gpu.example#x','garbage','http://127.0.0.1:7861'])assert.equal(tryonEndpoint(url),null);assert.equal(tryonEndpoint('http://127.0.0.1:7861',true),'http://127.0.0.1:7861');});
+test('Bound streaming upload even when content-length is absent or forged',async()=>{assert.deepEqual([...await boundedBody(new Request('https://site.example',{method:'POST',body:'abc'}),4)],[97,98,99]);await assert.rejects(boundedBody(new Request('https://site.example',{method:'POST',headers:{'content-length':'1'},body:'abcde'}),4),/input_too_large/);await assert.rejects(boundedBody(new Request('https://site.example',{method:'POST',headers:{'content-length':'99'},body:'x'}),4),/input_too_large/);});

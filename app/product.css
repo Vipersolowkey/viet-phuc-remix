@@ -1,0 +1,79 @@
+/* The working surfaces share the studio's burgundy palette and typography. */
+.product-panel { background: #fff; border: 1px solid #e7dfe1; border-radius: 18px; padding: 24px; min-width: 0; }
+.product-panel h2, .product-section h2 { font-family: var(--font-display); font-size: 24px; letter-spacing: -.025em; line-height: 1.3; }
+.product-panel h2 svg { display: inline; vertical-align: middle; margin-right: 8px; }
+.product-panel h3 { font-size: 17px; line-height: 1.45; }
+.product-panel p { line-height: 1.7; }
+.product-panel > p { margin-top: 12px; }
+.product-form { margin-top: 20px; }
+.product-form label { display: block; font-size: 14px; font-weight: 600; color: #4f3f49; margin: 0 0 8px; }
+.product-form input:not([type=checkbox]), .product-form select { display: block; width: 100%; min-height: 46px; border: 1px solid #dbd2d6; border-radius: 9px; padding: 10px 12px; background: #fff; color: #29242b; font: inherit; font-size: 16px; margin: 7px 0 16px; }
+.product-form input:focus-visible, .product-form select:focus-visible { outline: 3px solid #ae5970; outline-offset: 2px; }
+.product-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.product-actions .primary-button, .product-actions .secondary-button { min-height: 44px; }
+.secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 17px; min-height: 44px; border: 1px solid #d8c4cc; background: #fff; color: #76283c; border-radius: 9px; font-size: 14px; font-weight: 600; }
+.workspace-status { padding: 16px 20px; border: 1px solid #e2c9d1; background: #faf0f3; border-radius: 12px; margin: 0 0 20px; font-size: 14px; }
+.workspace-status .primary-button { margin-top: 12px; }
+.wardrobe-layout { display: grid; grid-template-columns: .85fr 1.15fr; gap: 24px; }
+.owned-options { margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.owned-options legend, .member-accessories legend { font-weight: 600; font-size: 14px; margin-bottom: 10px; }
+.owned-options label { display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid #e7dfe1; border-radius: 9px; min-height: 44px; font-size: 14px; }
+.owned-options input, .member-accessories input, .checklist-items input, .walking-option input { width: 18px; height: 18px; accent-color: #76283c; flex-shrink: 0; }
+.product-section { margin-top: 36px; }
+.product-section > .input-hint { margin: 12px 0 20px; }
+.product-empty { border: 1px dashed #d9c2cb; background: #fff; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 20px; text-align: center; }
+.product-empty p { max-width: 480px; color: #71636c; }
+.wardrobe-items { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+.wardrobe-item { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e7dfe1; border-radius: 12px; padding: 16px; min-width: 0; }
+.wardrobe-item > div { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.wardrobe-item h3 { font-size: 15px; }.wardrobe-item p { font-size: 14px; color: #71636c; margin-top: 5px; }
+.wardrobe-color { width: 32px; height: 46px; border-radius: 16px 16px 5px 5px; flex-shrink: 0; border: 1px solid #0001; }
+.wardrobe-suggestions { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+.wardrobe-suggestions .outfit-mockup.compact .mockup-stage, .member-card .outfit-mockup.compact .mockup-stage { height: 210px; }
+.wardrobe-suggestions .outfit-mockup.compact .mockup-stage canvas, .member-card .outfit-mockup.compact .mockup-stage canvas { height: 210px; width: 140px; max-width: 100%; }
+.wardrobe-suggestions .primary-button { width: 100%; margin-top: 16px; }
+.coverage { padding: 14px; border: 1px solid #e7dfe1; border-radius: 10px; background: #faf7f8; margin-top: 20px; font-size: 14px; }
+.coverage strong { display: flex; gap: 7px; align-items: center; font-size: 14px; }
+.coverage p { margin-top: 9px; line-height: 1.6; }.coverage .text-button { margin-top: 9px; }
+.group-layout { display: grid; grid-template-columns: 260px minmax(0,1fr); gap: 24px; align-items: start; }
+.group-library { position: sticky; top: 20px; }.group-library > .secondary-button { width: 100%; margin-top: 20px; }
+.group-library-row { display: flex; gap: 4px; border-bottom: 1px solid #eee4e8; padding: 12px 0; }
+.group-library-row > button:first-child { min-width: 0; flex: 1; text-align: left; background: none; border: 0; border-radius: 8px; padding: 8px; }
+.group-library-row > button.active { background: #f8eaef; color: #76283c; }
+.group-library-row strong { display: block; font-size: 14px; overflow-wrap: anywhere; }.group-library-row span { display: block; font-size: 12px; margin-top: 5px; }
+.group-settings { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; }
+.save-state { padding: 6px 10px; border: 1px solid #e3d8dd; border-radius: 20px; font-size: 12px; white-space: nowrap; color: #685660; background: #faf7f8; }.save-state.dirty { border-color: #bd8e62; background: #fff7e8; color: #795224; }
+.group-members { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }.group-member-heading { margin: 28px 0 16px; }
+.member-top { display: flex; align-items: center; justify-content: space-between; }
+.member-selects { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.member-accessories { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.member-accessories label { font-size: 14px; font-weight: 400; display: flex; gap: 7px; align-items: center; min-height: 32px; }
+.group-save-bar { margin-top: 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }.group-save-bar .product-actions { margin: 0; }.group-save-bar p { font-size: 14px; }
+.event-checklist { margin-top: 32px; scroll-margin-top: 20px; }
+.checklist-settings { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: center; }
+.product-form .walking-option { display: flex; align-items: center; gap: 9px; font-weight: 500; }
+progress { display: block; width: 100%; height: 8px; border: 0; border-radius: 9px; overflow: hidden; accent-color: #76283c; margin: 20px 0; }progress::-webkit-progress-bar { background: #f0e6ea; }progress::-webkit-progress-value { background: #76283c; }
+.checklist-items { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.checklist-items label { display: flex; align-items: flex-start; gap: 12px; min-height: 64px; padding: 15px; border: 1px solid #e7dfe1; border-radius: 10px; font-size: 14px; line-height: 1.65; }
+.checklist-items input { margin-top: 3px; }.checklist-items .checked { background: #f5faf7; border-color: #c8ddcf; }
+.checklist-culture { margin-top: 24px; border-top: 1px solid #e7dfe1; padding-top: 20px; font-size: 14px; }.checklist-culture ul { padding-left: 20px; margin: 12px 0; }.checklist-culture li { margin: 8px 0; line-height: 1.65; }.checklist-culture p { margin-top: 12px; }
+.completion-note { background: #eaf4ed; border-radius: 10px; padding: 12px; color: #305844; }
+.culture-quiz { margin-bottom: 32px; }.quiz-start { display: flex; gap: 30px; justify-content: space-between; align-items: center; margin-top: 18px; }.quiz-start p { max-width: 680px; }.quiz-start button { flex-shrink: 0; }
+.quiz-question { max-width: 760px; margin: 24px auto 0; }.quiz-question h3 { font-family: var(--font-display); font-size: 25px; margin: 20px 0; line-height: 1.4; }
+.quiz-options { display: flex; flex-direction: column; gap: 12px; }.quiz-options button { display: flex; gap: 12px; text-align: left; align-items: center; padding: 16px; background: #fff; border: 1px solid #ded3d8; border-radius: 10px; font-size: 16px; }.quiz-options button span { color: #76283c; font-weight: 700; }.quiz-options button strong { margin-left: auto; font-size: 12px; }.quiz-options .correct { background: #edf6ef; border-color: #729d7e; color: #285137; opacity: 1; }.quiz-options .incorrect { background: #fff0f1; border-color: #bf7581; opacity: 1; }
+.quiz-explanation { background: #faf6f8; padding: 20px; border-radius: 12px; margin-top: 20px; }.quiz-explanation p { margin: 8px 0; }.quiz-explanation a { font-size: 14px; }
+.quiz-finish { text-align: center; margin: 24px auto 0; max-width: 840px; }.quiz-score { font-family: var(--font-display); font-size: 64px; color: #76283c; }.quiz-score small { font-size: 28px; }.quiz-finish .product-actions { justify-content: center; }.quiz-finish > p { margin-top: 12px; }
+.quiz-review { text-align: left; margin-top: 24px; }.quiz-review details { border-top: 1px solid #e7dfe1; padding: 16px 0; }.quiz-review summary { cursor: pointer; font-size: 15px; font-weight: 600; }.quiz-review p { padding-top: 12px; font-size: 14px; }.quiz-review a { font-size: 14px; }
+.subpage-back { margin: 24px 0 0; }.checklist-shortcut { margin-top: 16px; }
+.group-edit-notice { padding: 16px 20px; background: #f9eaf0; border: 1px solid #dab7c5; border-radius: 12px; margin-bottom: 24px; font-size: 14px; }
+.group-overview { margin-bottom: 24px; }
+.group-preview-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin-top: 16px; }
+.group-preview-grid > button { border: 1px solid #e7dfe1; background: #faf7f8; border-radius: 12px; padding: 12px; min-width: 0; text-align: center; }
+.group-preview-grid .outfit-mockup.compact .mockup-stage { height: 170px; }
+.group-preview-grid .outfit-mockup.compact .mockup-stage canvas { height: 170px; width: 114px; max-width: 100%; }
+.group-preview-grid strong { display: block; font-size: 15px; overflow-wrap: anywhere; }.group-preview-grid > button > span { display: block; font-size: 12px; color: #71636c; margin-top: 5px; }
+.member-card { scroll-margin-top: 20px; }
+@media (max-width:760px) { .group-preview-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }.group-preview-grid .outfit-mockup.compact .mockup-stage { height: 150px; }.group-preview-grid .outfit-mockup.compact .mockup-stage canvas { height: 150px; width: 100px; }.product-panel .section-heading { flex-wrap: wrap; gap: 10px; }.owned-options { grid-template-columns: 1fr 1fr; } }
+@media (max-width:350px) { .member-selects, .owned-options, .member-accessories { grid-template-columns: 1fr; }.wardrobe-item { flex-wrap: wrap; }.wardrobe-item > div { min-width: 120px; } }
+@media (max-width:1000px) { .group-layout { grid-template-columns: 1fr; }.group-library { position: static; }.wardrobe-suggestions { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width:760px) { .product-panel { padding: 18px; border-radius: 14px; }.wardrobe-layout, .wardrobe-items, .wardrobe-suggestions, .group-members, .checklist-items { grid-template-columns: 1fr; }.group-settings, .checklist-settings { grid-template-columns: 1fr; gap: 0; }.group-save-bar, .quiz-start { flex-direction: column; align-items: stretch; gap: 12px; }.group-save-bar .product-actions > button { flex: 1; }.product-panel h2 { font-size: 21px; }.quiz-options button { flex-wrap: wrap; }.quiz-options button strong { width: 100%; margin: 0 0 0 24px; }.group-member-heading { flex-wrap: wrap; gap: 12px; } }
