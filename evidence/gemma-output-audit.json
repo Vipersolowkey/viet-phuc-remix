@@ -1,0 +1,866 @@
+[
+  {
+    "index": 0,
+    "selection": {
+      "garment": "ao-dai",
+      "event": "hoi-xuan",
+      "style": "thanh-lich",
+      "color": "ruby",
+      "harmony": "neutral",
+      "accessories": []
+    },
+    "ms": 2120,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ao-dai",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "ruby",
+        "harmony": "neutral",
+        "accessories": [],
+        "id": "ollama:0e012308-1a99-4256-91b1-4d210e206eaf",
+        "title": "Áo dài Đỏ rượu thanh lịch",
+        "reason": "Sắc đỏ rượu đậm nổi bật trên nền quần ngà, tạo điểm nhấn rực rỡ cho ngày xuân."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "ivory",
+        "harmony": "neutral",
+        "accessories": [],
+        "id": "ollama:2c05de4b-cacf-43af-ba53-28d4b35f8ba9",
+        "title": "Áo dài Trắng ngà tinh khôi",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo nên tổng thể đồng nhất, nhẹ nhàng và thanh thoát."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "navy",
+        "harmony": "neutral",
+        "accessories": [],
+        "id": "ollama:1ee88e64-dbcd-4039-a427-884e06e98c34",
+        "title": "Áo dài Xanh chàm nhã nhặn",
+        "reason": "Màu xanh chàm trầm ổn tương phản hài hòa với quần ngà, mang lại vẻ ngoài điềm đạm."
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "selection": {
+      "garment": "tu-than",
+      "event": "hoi-xuan",
+      "style": "thanh-lich",
+      "color": "jade",
+      "harmony": "analogous",
+      "accessories": [
+        "pearl",
+        "bag"
+      ]
+    },
+    "ms": 2249,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "tu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "jade",
+        "harmony": "analogous",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:cc08bf1c-fbaa-4904-90a1-739dc505d422",
+        "title": "Áo tứ thân xanh ngọc thanh lịch",
+        "reason": "Sắc xanh ngọc tươi sáng nổi bật trên nền váy tối màu. Ngọc trai và túi nhỏ tạo điểm nhấn tinh tế cho tổng thể."
+      },
+      {
+        "garment": "tu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "ivory",
+        "harmony": "analogous",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:ae13bc66-eb8a-4e57-891f-79a222179eed",
+        "title": "Áo tứ thân trắng ngà trang nhã",
+        "reason": "Tông trắng ngà tạo sự tương phản nhẹ nhàng với váy tối màu. Phụ kiện ngọc trai và túi nhỏ mang lại vẻ ngoài thanh thoát."
+      },
+      {
+        "garment": "tu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "navy",
+        "harmony": "analogous",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:d2f28a9f-8ac4-470a-a02e-b3c2408aaa01",
+        "title": "Áo tứ thân xanh chàm cổ điển",
+        "reason": "Màu xanh chàm trầm mặc hài hòa cùng váy tối màu. Ngọc trai và túi nhỏ làm điểm nhấn sáng cho bộ trang phục."
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "selection": {
+      "garment": "ngu-than",
+      "event": "hoi-xuan",
+      "style": "thanh-lich",
+      "color": "navy",
+      "harmony": "complementary",
+      "accessories": [
+        "sneaker",
+        "fan"
+      ]
+    },
+    "ms": 2218,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ngu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "navy",
+        "harmony": "complementary",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:2d77dbce-82b3-46c7-8de2-09f1c0b7cd04",
+        "title": "Ngũ thân Xanh chàm Thanh lịch",
+        "reason": "Sắc xanh chàm đậm nổi bật trên nền quần ngà, kết hợp cùng quạt tay và sneaker tạo nên cách phối đương đại."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "ivory",
+        "harmony": "complementary",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:2db8eb80-4c84-4b39-942e-a34f0a486b0e",
+        "title": "Ngũ thân Trắng ngà Thanh lịch",
+        "reason": "Tông trắng ngà đồng nhất với màu quần tạo vẻ ngoài nhẹ nhàng, điểm xuyết bằng quạt tay và sneaker theo cách phối đương đại."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "hoi-xuan",
+        "style": "thanh-lich",
+        "color": "ruby",
+        "harmony": "complementary",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:13b82e0d-1dd9-4f1f-afa4-c1bb06bb9646",
+        "title": "Ngũ thân Đỏ rượu Thanh lịch",
+        "reason": "Màu đỏ rượu rực rỡ tương phản mạnh với quần ngà, đi kèm quạt tay và sneaker là cách phối đương đại."
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "selection": {
+      "garment": "ao-dai",
+      "event": "ky-yeu",
+      "style": "thanh-lich",
+      "color": "rose",
+      "harmony": "neutral",
+      "accessories": [
+        "khan",
+        "non",
+        "fan"
+      ]
+    },
+    "ms": 1460,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ao-dai",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "rose",
+        "harmony": "neutral",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:ed62a91c-1819-4c2c-badc-6d75f4a43055",
+        "title": "Áo dài Hồng sen thanh lịch",
+        "reason": "Sắc hồng sen rực rỡ nổi bật trên nền quần ngà. Khăn vấn, nón lá và quạt tay tạo điểm nhấn hài hòa."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "ivory",
+        "harmony": "neutral",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:1d3b1f2a-b65b-4428-b1f2-e4b08aa0c281",
+        "title": "Áo dài Trắng ngà tinh khôi",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo nên tổng thể đồng nhất, nhẹ nhàng. Khăn vấn, nón lá và quạt tay tăng thêm vẻ chỉn chu."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "navy",
+        "harmony": "neutral",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:af61d5a3-68ba-4816-bcb8-80f124005806",
+        "title": "Áo dài Xanh chàm nhã nhặn",
+        "reason": "Màu xanh chàm trầm ổn tương phản rõ nét với quần ngà. Khăn vấn, nón lá và quạt tay làm điểm nhấn cho bộ trang phục."
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "selection": {
+      "garment": "tu-than",
+      "event": "ky-yeu",
+      "style": "thanh-lich",
+      "color": "gold",
+      "harmony": "analogous",
+      "accessories": [
+        "non"
+      ]
+    },
+    "ms": 2806,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "tu-than",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "gold",
+        "harmony": "analogous",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:586151bd-316f-4006-8e39-0f6cb1170ce0",
+        "title": "Áo tứ thân vàng nghệ thanh lịch",
+        "reason": "Sắc vàng nghệ nổi bật trên nền váy tối màu. Thắt lưng tạo điểm nhấn màu sắc hài hòa cùng nón lá."
+      },
+      {
+        "garment": "tu-than",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "ivory",
+        "harmony": "analogous",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:b76b72bf-a7dc-42eb-950d-a9d5b98fb262",
+        "title": "Áo tứ thân trắng ngà tinh khôi",
+        "reason": "Tông trắng ngà tạo sự tương phản nhẹ nhàng với váy tối màu. Thắt lưng và nón lá làm điểm nhấn cho tổng thể."
+      },
+      {
+        "garment": "tu-than",
+        "event": "ky-yeu",
+        "style": "thanh-lich",
+        "color": "navy",
+        "harmony": "analogous",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:7620458a-ca78-4056-bf79-ef5a3a48e7fa",
+        "title": "Áo tứ thân xanh chàm nhã nhặn",
+        "reason": "Màu xanh chàm trầm mặc kết hợp cùng váy tối màu. Thắt lưng tạo điểm nhấn sắc sảo cùng nón lá."
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "selection": {
+      "garment": "ngu-than",
+      "event": "ky-yeu",
+      "style": "truyen-thong",
+      "color": "ivory",
+      "harmony": "complementary",
+      "accessories": []
+    },
+    "ms": 2288,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ngu-than",
+        "event": "ky-yeu",
+        "style": "truyen-thong",
+        "color": "ivory",
+        "harmony": "complementary",
+        "accessories": [],
+        "id": "ollama:7098039c-fe95-4000-81f2-9ec391a1aaaf",
+        "title": "Ngũ thân Trắng ngà thanh lịch",
+        "reason": "Sắc trắng ngà đồng nhất từ áo đến quần tạo nên tổng thể hài hòa và tinh khôi."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "ky-yeu",
+        "style": "truyen-thong",
+        "color": "jade",
+        "harmony": "complementary",
+        "accessories": [],
+        "id": "ollama:ed844bc9-3971-48ce-9b92-a086265f175e",
+        "title": "Ngũ thân Xanh ngọc tươi mới",
+        "reason": "Màu xanh ngọc nổi bật trên nền quần ngà, tạo điểm nhấn trẻ trung cho bộ ảnh."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "ky-yeu",
+        "style": "truyen-thong",
+        "color": "navy",
+        "harmony": "complementary",
+        "accessories": [],
+        "id": "ollama:85c83965-7467-4570-b7e6-1b9afcd04f5e",
+        "title": "Ngũ thân Xanh chàm trầm mặc",
+        "reason": "Tông xanh chàm đậm tương phản rõ nét với quần ngà, mang lại vẻ ngoài điềm đạm."
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "selection": {
+      "garment": "ao-dai",
+      "event": "van-hoa",
+      "style": "truyen-thong",
+      "color": "ruby",
+      "harmony": "neutral",
+      "accessories": [
+        "pearl",
+        "bag"
+      ]
+    },
+    "ms": 2595,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ao-dai",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "ruby",
+        "harmony": "neutral",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:59cc7d19-1dac-4233-be22-fbf8d0fb41a5",
+        "title": "Áo dài Đỏ rượu thanh lịch",
+        "reason": "Sắc đỏ rượu nổi bật trên nền quần ngà. Ngọc trai và túi nhỏ tạo điểm nhấn tinh tế."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "ivory",
+        "harmony": "neutral",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:76dfe793-c265-46dd-a07e-6ee452eb9dbc",
+        "title": "Áo dài Trắng ngà thuần khiết",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo sự đồng nhất. Ngọc trai và túi nhỏ mang lại vẻ nhẹ nhàng."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "navy",
+        "harmony": "neutral",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:ccfc8c42-16cc-4543-86e7-f6983efd4ada",
+        "title": "Áo dài Xanh chàm trang nhã",
+        "reason": "Màu xanh chàm tương phản hài hòa với quần ngà. Ngọc trai và túi nhỏ làm tăng sự chỉn chu."
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "selection": {
+      "garment": "tu-than",
+      "event": "van-hoa",
+      "style": "truyen-thong",
+      "color": "jade",
+      "harmony": "analogous",
+      "accessories": [
+        "sneaker",
+        "fan"
+      ]
+    },
+    "ms": 2303,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "tu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "jade",
+        "harmony": "analogous",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:0c4a2c3d-9555-4026-885b-6f1ffbab916e",
+        "title": "Áo tứ thân xanh ngọc",
+        "reason": "Sắc xanh ngọc nổi bật trên nền váy tối màu, kết hợp cùng thắt lưng tạo điểm nhấn. Đây là cách phối đương đại với sneaker và quạt tay."
+      },
+      {
+        "garment": "tu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "ivory",
+        "harmony": "analogous",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:b0dffc81-e5cc-43c9-8aae-162d08fca058",
+        "title": "Áo tứ thân trắng ngà",
+        "reason": "Tông trắng ngà thanh thoát tương phản với váy tối màu và thắt lưng màu điểm nhấn. Đây là cách phối đương đại với sneaker và quạt tay."
+      },
+      {
+        "garment": "tu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "navy",
+        "harmony": "analogous",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:55a529d2-1a1e-4247-9a3b-56c4b18fdbde",
+        "title": "Áo tứ thân xanh chàm",
+        "reason": "Màu xanh chàm hài hòa với nền váy tối, được làm nổi bật bởi thắt lưng. Đây là cách phối đương đại với sneaker và quạt tay."
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "selection": {
+      "garment": "ngu-than",
+      "event": "van-hoa",
+      "style": "truyen-thong",
+      "color": "navy",
+      "harmony": "complementary",
+      "accessories": [
+        "khan",
+        "non",
+        "fan"
+      ]
+    },
+    "ms": 2454,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ngu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "navy",
+        "harmony": "complementary",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:0777225a-7b3e-4b54-9083-2785826197dd",
+        "title": "Ngũ thân xanh chàm thanh lịch",
+        "reason": "Màu xanh chàm đậm nổi bật trên nền quần ngà. Khăn vấn, nón lá và quạt tay tạo điểm nhấn hài hòa."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "ivory",
+        "harmony": "complementary",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:67233597-86ae-4911-b782-b6efbc99be92",
+        "title": "Ngũ thân trắng ngà tinh khôi",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo nên tổng thể đồng nhất. Khăn vấn, nón lá và quạt tay làm tăng thêm vẻ chỉn chu."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "van-hoa",
+        "style": "truyen-thong",
+        "color": "ruby",
+        "harmony": "complementary",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:87b74f83-544a-48e7-abd2-3d97fcb4ee50",
+        "title": "Ngũ thân đỏ rượu sang trọng",
+        "reason": "Sắc đỏ rượu đậm tạo sự tương phản mạnh với quần ngà. Khăn vấn, nón lá và quạt tay là những điểm nhấn hoàn thiện."
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "selection": {
+      "garment": "ao-dai",
+      "event": "di-tich",
+      "style": "truyen-thong",
+      "color": "rose",
+      "harmony": "neutral",
+      "accessories": [
+        "non"
+      ]
+    },
+    "ms": 2140,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ao-dai",
+        "event": "di-tich",
+        "style": "truyen-thong",
+        "color": "rose",
+        "harmony": "neutral",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:57f596f9-ea9e-48e2-b90c-7ff785b17b1e",
+        "title": "Áo dài Hồng sen thanh lịch",
+        "reason": "Sắc hồng sen rực rỡ nổi bật trên nền quần ngà trung tính. Nón lá tạo điểm nhấn nhẹ nhàng cho tổng thể."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "di-tich",
+        "style": "truyen-thong",
+        "color": "ivory",
+        "harmony": "neutral",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:5bd858e6-19f9-4809-a976-450b76226bf9",
+        "title": "Áo dài Trắng ngà tinh khôi",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo nên sự đồng nhất, nhã nhặn. Nón lá là điểm nhấn hoàn thiện bộ phối."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "di-tich",
+        "style": "truyen-thong",
+        "color": "navy",
+        "harmony": "neutral",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:ef8875eb-dfd5-4051-b4af-645ecc17aed3",
+        "title": "Áo dài Xanh chàm trầm mặc",
+        "reason": "Màu xanh chàm đậm tạo sự tương phản rõ nét với quần ngà. Nón lá mang lại vẻ ngoài hài hòa."
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "selection": {
+      "garment": "tu-than",
+      "event": "di-tich",
+      "style": "gen-z",
+      "color": "gold",
+      "harmony": "analogous",
+      "accessories": []
+    },
+    "ms": 2223,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "tu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "gold",
+        "harmony": "analogous",
+        "accessories": [],
+        "id": "ollama:4ce7af6a-7583-46d5-b70e-053bf92ccdb0",
+        "title": "Áo tứ thân vàng nghệ",
+        "reason": "Sắc vàng nghệ nổi bật trên nền váy tối màu, kết hợp cùng thắt lưng tạo điểm nhấn hài hòa."
+      },
+      {
+        "garment": "tu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "ivory",
+        "harmony": "analogous",
+        "accessories": [],
+        "id": "ollama:23da23f8-e599-4716-aade-4313c3d890de",
+        "title": "Áo tứ thân trắng ngà",
+        "reason": "Tông trắng ngà thanh thoát đối lập với váy tối màu, làm nổi bật thắt lưng làm điểm nhấn."
+      },
+      {
+        "garment": "tu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "navy",
+        "harmony": "analogous",
+        "accessories": [],
+        "id": "ollama:64af5ec9-2235-4bd6-a695-d1dd1e297b09",
+        "title": "Áo tứ thân xanh chàm",
+        "reason": "Màu xanh chàm trầm mặc phối cùng váy tối màu, tạo sự đồng nhất và nhấn nhá bằng thắt lưng."
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "selection": {
+      "garment": "ngu-than",
+      "event": "di-tich",
+      "style": "gen-z",
+      "color": "ivory",
+      "harmony": "complementary",
+      "accessories": [
+        "pearl",
+        "bag"
+      ]
+    },
+    "ms": 2406,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ngu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "ivory",
+        "harmony": "complementary",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:5664b228-401a-474b-a2ea-7837ff43c831",
+        "title": "Ngũ thân Trắng ngà thanh lịch",
+        "reason": "Tông trắng ngà đồng nhất từ áo đến quần tạo vẻ ngoài nhẹ nhàng. Ngọc trai và túi nhỏ là điểm nhấn tinh tế trên nền màu sáng."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "jade",
+        "harmony": "complementary",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:897af4de-0cd8-42c5-9656-5d46e32b27bf",
+        "title": "Ngũ thân Xanh ngọc tươi mới",
+        "reason": "Màu xanh ngọc nổi bật trên nền quần ngà trung tính. Ngọc trai và túi nhỏ tạo thêm sự sang trọng cho tổng thể."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "di-tich",
+        "style": "gen-z",
+        "color": "navy",
+        "harmony": "complementary",
+        "accessories": [
+          "pearl",
+          "bag"
+        ],
+        "id": "ollama:5163787e-5f7c-4698-9bec-43eea768dabd",
+        "title": "Ngũ thân Xanh chàm trầm mặc",
+        "reason": "Sắc xanh chàm đậm tạo độ tương phản mạnh với quần ngà. Ngọc trai và túi nhỏ giúp cân bằng lại độ trầm của màu áo."
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "selection": {
+      "garment": "ao-dai",
+      "event": "dam-cuoi",
+      "style": "gen-z",
+      "color": "ruby",
+      "harmony": "neutral",
+      "accessories": [
+        "sneaker",
+        "fan"
+      ]
+    },
+    "ms": 1519,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ao-dai",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "ruby",
+        "harmony": "neutral",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:600b4609-077c-4116-a950-17ca04087159",
+        "title": "Áo dài Đỏ rượu hiện đại",
+        "reason": "Sắc đỏ rượu nổi bật trên nền quần ngà. Sneaker và quạt tay tạo điểm nhấn cho cách phối đương đại."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "ivory",
+        "harmony": "neutral",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:fae47271-29a6-43fc-a4ad-2407e77e6916",
+        "title": "Áo dài Trắng ngà thanh lịch",
+        "reason": "Tông trắng ngà kết hợp cùng quần ngà tạo sự đồng nhất nhẹ nhàng. Sneaker và quạt tay mang đến vẻ đương đại."
+      },
+      {
+        "garment": "ao-dai",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "navy",
+        "harmony": "neutral",
+        "accessories": [
+          "sneaker",
+          "fan"
+        ],
+        "id": "ollama:48122f4d-eb25-47c9-8018-ccabd065b239",
+        "title": "Áo dài Xanh chàm trẻ trung",
+        "reason": "Màu xanh chàm tương phản rõ nét với quần ngà. Sneaker và quạt tay hoàn thiện phong cách phối đương đại."
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "selection": {
+      "garment": "tu-than",
+      "event": "dam-cuoi",
+      "style": "gen-z",
+      "color": "jade",
+      "harmony": "analogous",
+      "accessories": [
+        "khan",
+        "non",
+        "fan"
+      ]
+    },
+    "ms": 2250,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "tu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "jade",
+        "harmony": "analogous",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:ade378a9-9465-4593-81df-151dc70434c4",
+        "title": "Áo tứ thân xanh ngọc nhẹ nhàng",
+        "reason": "Sắc xanh ngọc tươi sáng nổi bật trên nền váy tối màu. Khăn vấn, nón lá và quạt tay tạo điểm nhấn hài hòa."
+      },
+      {
+        "garment": "tu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "ivory",
+        "harmony": "analogous",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:e23d31a8-e90b-4656-9d5e-af207ce86f1b",
+        "title": "Áo tứ thân trắng ngà thanh lịch",
+        "reason": "Tông trắng ngà tạo sự tương phản rõ nét với váy tối màu. Khăn vấn, nón lá và quạt tay mang lại vẻ ngoài tinh tế."
+      },
+      {
+        "garment": "tu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "navy",
+        "harmony": "analogous",
+        "accessories": [
+          "khan",
+          "non",
+          "fan"
+        ],
+        "id": "ollama:32d60931-b568-4cbf-9940-7f2409300e0e",
+        "title": "Áo tứ thân xanh chàm nhã nhặn",
+        "reason": "Màu xanh chàm trầm mặc kết hợp cùng váy tối màu tạo sự đồng nhất. Khăn vấn, nón lá và quạt tay làm tăng thêm nét duyên dáng."
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "selection": {
+      "garment": "ngu-than",
+      "event": "dam-cuoi",
+      "style": "gen-z",
+      "color": "navy",
+      "harmony": "complementary",
+      "accessories": [
+        "non"
+      ]
+    },
+    "ms": 2129,
+    "ok": true,
+    "looks": [
+      {
+        "garment": "ngu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "navy",
+        "harmony": "complementary",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:6e4ff994-0a0b-4170-96cf-8256e7205521",
+        "title": "Ngũ thân Xanh chàm thanh lịch",
+        "reason": "Sắc xanh chàm đậm nổi bật trên nền quần ngà, kết hợp cùng nón lá tạo điểm nhấn nhẹ nhàng."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "ivory",
+        "harmony": "complementary",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:3f7a9468-ec1c-49aa-b53a-8441955d0cfb",
+        "title": "Ngũ thân Trắng ngà thuần khiết",
+        "reason": "Tông trắng ngà đồng nhất với quần tạo vẻ ngoài trang nhã, hài hòa cùng nón lá."
+      },
+      {
+        "garment": "ngu-than",
+        "event": "dam-cuoi",
+        "style": "gen-z",
+        "color": "ruby",
+        "harmony": "complementary",
+        "accessories": [
+          "non"
+        ],
+        "id": "ollama:a290859d-c1d5-4e37-a1a1-1d144498da79",
+        "title": "Ngũ thân Đỏ rượu sang trọng",
+        "reason": "Màu đỏ rượu tạo sự tương phản mạnh mẽ với quần ngà, điểm xuyết thêm nón lá làm điểm nhấn."
+      }
+    ]
+  }
+]

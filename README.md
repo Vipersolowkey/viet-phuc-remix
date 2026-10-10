@@ -1,3 +1,13 @@
+# Minh chứng Audition 2026
+
+- [Video giới thiệu](https://Vipersolowkey.github.io/viet-phuc-remix/)
+- [Demo công khai](https://viet-phuc-remix.viperzzz2k6.chatgpt.site/)
+- [Gemini thật](https://share.gemini.google/AfVs8fdZqsJ9)
+- [Bài trình bày](AUDITION.md) và [kiểm chứng](QA-AUDITION.md)
+
+![Gemma online](evidence/gemma-online.png)
+![CatVTON GPU cục bộ](evidence/catvton-local.png)
+
 # Việt phục Remix
 
 Ứng dụng phối Việt phục cho học sinh, sinh viên: chọn trang phục, sự kiện, màu và phụ kiện; nhận ba thẻ phối, tìm hiểu văn hóa, so sánh hai phương án và lưu lookbook cá nhân. Try-on dùng CatVTON trong thành phần GPU đi kèm mã nguồn; xem `tryon/README.md`.
