@@ -2,7 +2,7 @@
 
 - [Video giới thiệu](https://Vipersolowkey.github.io/viet-phuc-remix/)
 - [Demo công khai](https://viet-phuc-remix.viperzzz2k6.chatgpt.site/)
-- [Gemini thật](https://share.gemini.google/AfVs8fdZqsJ9)
+- [Gemini thật](https://share.gemini.google/mF8MmfyKmAIY)
 - [Bài trình bày](AUDITION.md) và [kiểm chứng](QA-AUDITION.md)
 
 ![Gemma online](evidence/gemma-online.png)
@@ -42,7 +42,7 @@ AI diễn giải tên và lý do của 3 phương án đã được cấu trúc.
 
 Đầu ra phải là JSON đúng schema, đủ 3 phương án, không bị cắt. Ollama Cloud chưa hỗ trợ ép JSON schema: prompt yêu cầu JSON, server kiểm tra Zod và trạng thái hoàn tất; từ chối trường bổ sung hoặc kết quả không hợp lệ. Timeout Ollama 14 giây, Gemini 12 giây; lỗi/quota/đầu ra không hợp lệ chuyển về gợi ý có sẵn và ghi rõ provider. Yêu cầu đăng nhập để gọi AI; giới hạn 20 yêu cầu/người/giờ là best effort theo Worker isolate, chưa phải quota phân tán toàn hệ thống.
 
-Không coi kết quả Ollama là kết quả Gemini. Kiểm thử Gemini dùng phản hồi mô phỏng; chưa xác minh một lần gọi Google thật. Cuộc trò chuyện rà soát và thử prompt Gemini thật: https://share.gemini.google/AfVs8fdZqsJ9.
+Không coi kết quả Ollama là kết quả Gemini. Kiểm thử Gemini dùng phản hồi mô phỏng; chưa xác minh một lần gọi Google thật. Cuộc trò chuyện rà soát và thử prompt Gemini thật: https://share.gemini.google/mF8MmfyKmAIY.
 
 Ngày 10/10/2026 đã kiểm chứng adapter bằng Ollama Cloud thật (`gemma4:31b`): ba phương án áo ngũ thân trả về trong khoảng 2,8 giây, đúng schema; mã trang phục, bảng màu và phụ kiện giữ nguyên. Đây là minh chứng Ollama, không phải một lượt gọi Gemini.
 
@@ -88,7 +88,7 @@ npm run build
 
 Kiểm tra API cần dev server và migration cục bộ. Script tạo và xóa riêng dữ liệu `qa:`. Test Gemini dùng fetch mô phỏng, không gọi API trả phí.
 
-Hồ sơ Audition ngày 10/10/2026 có minh chứng Gemini thật tại https://share.gemini.google/AfVs8fdZqsJ9; vai trò và kiến trúc xem AUDITION.md. Runtime online dùng Gemma; CatVTON đã kiểm tra GPU cục bộ.
+Hồ sơ Audition ngày 10/10/2026 có minh chứng Gemini thật tại https://share.gemini.google/mF8MmfyKmAIY; vai trò và kiến trúc xem AUDITION.md. Runtime online dùng Gemma; CatVTON đã kiểm tra GPU cục bộ.
 
 ## Phông chữ
 
